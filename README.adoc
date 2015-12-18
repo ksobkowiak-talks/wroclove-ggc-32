@@ -1,0 +1,36 @@
+= Getting Involved in Open Source
+
+This repository contains the slides for the talks about Open Source.
+
+== Generating the presentation
+
+. Ensure Asciidoctor, Slim and their dependencies are installed:
+
+  $ gem install asciidoctor tilt thread_safe
+    gem install slim --version 2.1.0
++
+Currently used with commit `c75673b21ff004c09fdd086db4562b30d4aaa0b0`.
+
+. Clone `asciidoctor/asciidoctor-reveal.js` to get templates for rendering presentation HTML:
+
+  $ git clone git://github.com/asciidoctor/asciidoctor-reveal.js.git
+
+. Copy or clone presentation library (to output destination/branch)
+
+  $ git clone -b 3.2.0 git://github.com/hakimel/reveal.js.git
+
+. Generate HTML from the Asciidoctor templates
+
+  $ asciidoctor -T asciidoctor-reveal.js/templates/slim/ CONTENT_FILE
+
+See https://github.com/asciidoctor/asciidoctor-reveal.js/blob/master/README.adoc[reveal.js Backend for Asciidoctor]
+for more infos how to generate the slides from the Asciidoctor templates.
+
+== Copyright and Licensing
+
+Copyright (C) 2015-2015 Krzysztof Sobkowiak +
+Free use of this software is granted under the terms of the link:LICENSE[Apache License].
+
+== Authors
+
+The demo was prepared by link:https://github.com/sobkowiak[Krzysztof Sobkowiak].
