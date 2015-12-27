@@ -1,0 +1,253 @@
+:revealjs_theme: conference
+:revealjs_customtheme: assets/css/conference.css
+:revealjs_width: 1000
+:source-highlighter: pygments
+:speaker: Krzysztof Sobkowiak (http://twitter.com/ksobkowiak[@ksobkowiak])
+:speaker-title: The Apache Software Foundation Member, Senior Solution Architect at Capgemini
+:speaker-email: krzys.sobkowiak@gmail.com
+:speaker-blog: http://sobkowiak.github.io
+:speaker-twitter: http://twitter.com/ksobkowiak[@ksobkowiak]
+:template-images-dir: assets/images
+
+// ***************************************************************************
+
+= Getting Involved in Open Source
+
+
+[.cover]
+--
+
+Geek Girls Carrots #30 +
+Wrocław, 26 January 2016
+
+[.newline]
+{speaker}
+//[.speaker-title]
+//The Apache Software Foundation Member +
+//Senior Solution Architect at Capgemini
+[.logo]
+image:{template-images-dir}/feather.png[width="100", link="http://apache.org"]
+--
+
+// ***************************************************************************
+
+== Who
+
+[.noredheader,cols="25%,75%"]
+|===
+| image:{template-images-dir}/kso1.png[width="90%"]
+a|
+* Apache Software Foundation
+** Member, Apache ServiceMix Committer & PMC Chair
+** Contributor @ Apache [Karaf, CXF, Camel, ActiveMQ]
+* Capgemini
+** Senior Solution Architect, Trainer
+* Other
+** Co-founder, trainer at http://robocap.pl[RoboCap.pl]
+** Committer & PMC at http://oasp.io[OASP], Committer at https://ops4j1.jira.com/wiki/[OPS4J]
+ |
+|===
+
+// ***************************************************************************
+
+== Open Source Overview
+
+=== Proprietary Software
+
+* Not much to discuss...
+* Black box
+* Closed-off development process
+* Exclusive control
+* Car with its hood welded shut
+
+
+// ***************************************************************************
+
+== The Apache Software Foundation
+
+// ***************************************************************************
+
+=== The ASF
+
+* ASF == The Apache Software Foundation
+* Non-profit corporation
+* 501(c)3 charity
+* Volunteer organization
+* Virtual world-wide organization
+* Exists to provide the organizational, legal and financial support for various OSS projects
+
+// ***************************************************************************
+
+=== The Apache Group
+
+[.noredheader,cols="50%,50%"]
+|===
+a| * Before the ASF there was “The Apache Group”
+* Informal corporate structure
+* 8 members
+* Resumed work on NCSA httpd in Feb. 1995
+* Choose permissive licensing
+| |
+|===
+
+// ***************************************************************************
+
+=== The ASF
+
+[.noredheader,cols="50%,50%"]
+|===
+a|
+Then
+
+* Incorporated in 1999
+* Started with 21 members
+* 2 projects
+* All servers and services donated
+
+[.newline]
+image:images/committer-map.png[width="100%", link="http://people.apache.org/map.html"]
+a|
+Now
+
+* 675 members
+* 172 TLPs
+* 115 subprojects
+* 46 Incubator podlings
+* Tons of committers (literally)
+** ~ 5200 committers,
+** ~ 2150 PMC members,
+** ~ 7500 signed ICLAs
+* Very large and growing infrastructure
+|
+|===
+
+// ***************************************************************************
+
+=== The ASF's Mission
+
+[.noredheader,cols="50%,50%"]
+|===
+a|
+What?
+
+* Provide open source software to public free of charge
+* Let the coders code – foundation exists to do the rest
+a|
+How?
+
+* Infrastructure for open source development
+* Legal entity for donation purposes
+* Shelter from law suits
+* Protection of the Apache brand
+|
+|===
+
+
+// ***************************************************************************
+
+== !
+
+[.thanks]
+--
+image:{template-images-dir}/smile.png[]
+
++++<h1>Thanks!</h1>+++
+[.underline]
+image:{template-images-dir}/underline.png[]
+
+[.large-text]
+Any questions?
+
+[.newline]
+You can find me at +
+{speaker-twitter} +
+{speaker-email} +
+{speaker-blog}
+--
+// ***************************************************************************
+
+== test
+
+[.noredheader,cols="50,50"]
+|===
+| image:{template-images-dir}/feather.png[] | image:assets/feather.png[]
+| image:{template-images-dir}/feather.png[] | image:assets/feather.png[]
+|===
+
+== The Apache Way is ...
+
+* A method of developing software
+* A method of running communities
+* A method of governing a Foundation
+
+// ************ Hawtio *************
+
+== http://hawt.io[Hawt.io]
+
+[.noredheader,cols="55,45"]
+|===
+| .2+|image:{template-images-dir}/feather.png[float="right",width="100%"]
+image:{template-images-dir}/feather.png[]
+a|* *OpenSource* project - Apache License
+* Birthdate : Nov 18, 2012
+* Pluggable & **modular** **web console** for managing Java **MBeans** and more ...
+|===
+
+== !
+
+[.noredheader,cols="60,40"]
+|===
+a|* Command line tools +++<i class="fa fa-arrow-right"></i>+++ jmx4perl, j4psh
+ * JMX / HTTP Bridge
+ * REST API : read attributes, execute operations +++<i class="fa fa-smile-o"></i>+++
+|image:assets/feather.png[float="right",width="65%"]
+|===
+
+== !
+
+[.noredheader,cols="50,50"]
+|===
+a|* Command line tools +++<i class="fa fa-arrow-right"></i>+++ jmx4perl, j4psh
+ * JMX / HTTP Bridge
+ * REST API : read attributes, execute operations +++<i class="fa fa-smile-o"></i>+++
+a|* Command line tools +++<i class="fa fa-arrow-right"></i>+++ jmx4perl, j4psh
+ * JMX / HTTP Bridge
+ * REST API : read attributes, execute operations +++<i class="fa fa-smile-o"></i>+++
+|===
+
+
+== Slide One
+
+* Foo
+* Bar
+* World
+
+== Slide Two
+
+Hello World - Good Bye Cruel World
+
+
+[NOTE.speaker]
+--
+Actually things aren't that bad
+--
+
+=== Slide Three
+
+[.noredheader,cols="50,50"]
+|===
+| .2+| image:{template-images-dir}/feather.png[float="left",width="100%"]
+a|* JConsole, VisualVM +++<i class="fa fa-arrow-right"></i>+++ Developers tool (+++<i class="fa fa-ambulance"></i>+++)
+* Proprietary `com` protocol (RMI/IIOP) +++</p></p>+++
+image:{template-images-dir}/feather.png[float="right",width="100%"]
+|===
+
+
+=== Slide Four
+
+== !
+
+[source,perl]
+----
+print "$0: hello world\n"
+----
