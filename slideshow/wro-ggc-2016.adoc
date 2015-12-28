@@ -23,10 +23,11 @@ Wrocław, 26 January 2016
 [.newline]
 {speaker}
 //[.speaker-title]
-//The Apache Software Foundation Member +
-//Senior Solution Architect at Capgemini
-[.logo]
+[.logo-left]
 image:{template-images-dir}/feather.png[width="100", link="http://apache.org"]
+[.speaker-title]
+The Apache Software Foundation Member +
+Senior Solution Architect at Capgemini
 --
 
 // ***************************************************************************

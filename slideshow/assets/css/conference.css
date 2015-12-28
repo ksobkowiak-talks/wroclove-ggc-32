@@ -384,6 +384,15 @@ body {
       box-shadow: unset;
     }
 
+    .logo-left  img {
+      position: fixed;
+      top: 310px;
+      left: 210px;
+      border: 0;
+      background: 0;
+      box-shadow: unset;
+    }
+
     .cover {
       position:absolute;
       top:150px;
