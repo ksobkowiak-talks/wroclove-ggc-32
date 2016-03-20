@@ -31,7 +31,7 @@ Wrocław, 13 April 2016
 The Apache Software Foundation Member +
 Senior Solution Architect at Capgemini
 [.logo-left]
-image:{template-images-dir}/feather.png[width="40", link="http://apache.org"]
+image:{template-images-dir}/feather.png[width="60", link="http://apache.org"]
 --
 
 // ***************************************************************************
