@@ -1,7 +1,11 @@
 :revealjs_theme: conference
 :revealjs_customtheme: assets/css/conference.css
-:revealjs_width: 1000
-:source-highlighter: pygments
+:revealjs_width: 1280
+:revealjs_height: 720
+// The valid options are coderay, highlightjs, prettify, and pygments
+// :source-highlighter: pygments
+// :pygments-style: tango
+:source-highlighter: highlightjs
 :speaker: Krzysztof Sobkowiak (http://twitter.com/ksobkowiak[@ksobkowiak])
 :speaker-title: The Apache Software Foundation Member, Senior Solution Architect at Capgemini
 :speaker-email: krzys.sobkowiak@gmail.com
@@ -17,36 +21,34 @@
 [.cover]
 --
 
-Geek Girls Carrots #30 +
-Wrocław, 26 January 2016
+[.event]
+Geek Girls Carrots #32 +
+Wrocław, 13 April 2016
 
 [.newline]
 {speaker}
-//[.speaker-title]
-[.logo-left]
-image:{template-images-dir}/feather.png[width="80", link="http://apache.org"]
 [.speaker-title]
 The Apache Software Foundation Member +
 Senior Solution Architect at Capgemini
+[.logo-left]
+image:{template-images-dir}/feather.png[width="40", link="http://apache.org"]
 --
 
 // ***************************************************************************
 
 == Who
 
-[.noredheader,cols="25%,75%"]
+[.noredheader,cols="75%,25%"]
 |===
-| image:{template-images-dir}/kso1.png[width="90%"]
 a|
-* Apache Software Foundation
-** Member, Apache ServiceMix Committer & PMC Chair
-** Contributor @ Apache [Karaf, CXF, Camel, ActiveMQ]
-* Capgemini
-** Senior Solution Architect, Trainer
-* Other
-** Co-founder, trainer at http://robocap.pl[RoboCap.pl]
-** Committer & PMC at http://oasp.io[OASP], Committer at https://ops4j1.jira.com/wiki/[OPS4J]
- |
+* Open source enthusiast & evangelist
+* The Apache Software Foundation member
+* Apache ServiceMix commiter & PMC chair (V.P. Apache ServiceMix)
+* Contributor at Apache Karaf, CXF, Camel, ActiveMQ
+* Committer at http://oasp.io[OASP], committer at https://ops4j1.jira.com/wiki/[OPS4J]
+* Senior Solution Architect & trainer at Capgemini
+* Co-founder & trainer at http://robocap.pl[RoboCap.pl]
+<| image:{template-images-dir}/kso1.png[width="90%"] |
 |===
 
 // ***************************************************************************
@@ -105,7 +107,6 @@ Then
 * 2 projects
 * All servers and services donated
 
-[.newline]
 image:images/committer-map.png[width="100%", link="http://people.apache.org/map.html"]
 a|
 Now
@@ -171,8 +172,8 @@ You can find me at +
 
 [.noredheader,cols="50,50"]
 |===
-| image:{template-images-dir}/feather.png[] | image:assets/feather.png[]
-| image:{template-images-dir}/feather.png[] | image:assets/feather.png[]
+| image:{template-images-dir}/feather-old.png[] | image:{template-images-dir}/feather-old.png[]
+| image:{template-images-dir}/feather-old.png[] | image:{template-images-dir}/feather-old.png[]
 |===
 
 == The Apache Way is ...
@@ -187,8 +188,8 @@ You can find me at +
 
 [.noredheader,cols="55,45"]
 |===
-| .2+|image:{template-images-dir}/feather.png[float="right",width="100%"]
-image:{template-images-dir}/feather.png[]
+| .2+|image:{template-images-dir}/feather-old.png[float="right",width="100%"]
+image:{template-images-dir}/feather-old.png[]
 a|* *OpenSource* project - Apache License
 * Birthdate : Nov 18, 2012
 * Pluggable & **modular** **web console** for managing Java **MBeans** and more ...
@@ -201,7 +202,7 @@ a|* *OpenSource* project - Apache License
 a|* Command line tools +++<i class="fa fa-arrow-right"></i>+++ jmx4perl, j4psh
  * JMX / HTTP Bridge
  * REST API : read attributes, execute operations +++<i class="fa fa-smile-o"></i>+++
-|image:assets/feather.png[float="right",width="65%"]
+|image:{template-images-dir}/feather-old.png[float="right",width="65%"]
 |===
 
 == !
@@ -237,10 +238,10 @@ Actually things aren't that bad
 
 [.noredheader,cols="50,50"]
 |===
-| .2+| image:{template-images-dir}/feather.png[float="left",width="100%"]
+| .2+| image:{template-images-dir}/feather-old.png[float="left",width="100%"]
 a|* JConsole, VisualVM +++<i class="fa fa-arrow-right"></i>+++ Developers tool (+++<i class="fa fa-ambulance"></i>+++)
 * Proprietary `com` protocol (RMI/IIOP) +++</p></p>+++
-image:{template-images-dir}/feather.png[float="right",width="100%"]
+image:{template-images-dir}/feather-old.png[float="right",width="100%"]
 |===
 
 

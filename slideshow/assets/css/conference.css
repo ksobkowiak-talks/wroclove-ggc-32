@@ -51,7 +51,7 @@ body {
   **************************************************/
   .reveal h1 {
     font-size: 2em;
-    width: 1000px; }
+    width: 1280px; }
 
   .reveal h2 {
     font-size: 2em; }
@@ -385,9 +385,18 @@ body {
     }
 
     .logo-left  img {
+      position: relative;
+      top: -160px;
+      left: -250px;
+      border: 0;
+      background: 0;
+      box-shadow: unset;
+    }
+
+    .logo-left1  img {
       position: fixed;
-      top: 315px;
-      left: 230px;
+      top: 265px;
+      left: 380px;
       border: 0;
       background: 0;
       box-shadow: unset;
@@ -401,6 +410,10 @@ body {
     }
 
     .cover .speaker-title {
+      font-size: 80%
+    }
+
+    .cover .event {
       font-size: 80%
     }
 
@@ -448,4 +461,22 @@ body {
     .thanks .underline {
       position: relative;
       top: -40px;
+    }
+
+    .centering {
+      text-align: center;
+    }
+
+    .centering .large-text {
+      font-size: 2em
+    }
+
+    .listingblock .highlight {
+      font-size: 0.65em;
+      width: 100%;
+    }
+
+    .listingblock .pygments {
+      font-size: 0.65em;
+      width: 100%;
     }
