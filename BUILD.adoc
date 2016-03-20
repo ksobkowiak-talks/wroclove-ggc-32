@@ -13,15 +13,27 @@ for more infos how to generate the slides from the Asciidoctor templates.
 
 . Ensure Asciidoctor, Slim and their dependencies are installed:
 
-  $ gem install asciidoctor tilt thread_safe
-    gem install slim --version 2.1.0
-+
-Currently used with commit `c75673b21ff004c09fdd086db4562b30d4aaa0b0` (no tags are
-available in the git repository).
+  $ gem install asciidoctor tilt thread_safe slim
+
+=== Clone repositories
+
+. Clone this repository with pre-configured submodules
+
+  $ git clone --recursive git@github.com:microservices-summit-2016/resilience-presentations.git
+
+You can clone the dependencies separately
+
+. Clone this repository
+
+  $ git clone git@github.com:microservices-summit-2016/resilience-presentations.git
 
 . Clone `asciidoctor/asciidoctor-reveal.js` to get templates for rendering presentation HTML:
 
   $ git clone git://github.com/asciidoctor/asciidoctor-reveal.js.git
+
++
+Currently used with commit `c75673b21ff004c09fdd086db4562b30d4aaa0b0` (no tags are
+available in the git repository).
 
 . Copy or clone presentation library (to output destination/branch)
 
@@ -31,7 +43,7 @@ available in the git repository).
 
 Generate HTML from the Asciidoctor templates
 
-  $ asciidoctor -T asciidoctor-reveal.js/templates/slim/ CONTENT_FILE.html
+  $ asciidoctor -T asciidoctor-reveal.js/templates/slim/ slides.adoc
 
 === Display the presentation
 
@@ -49,7 +61,7 @@ Next you can server the content using command
 
   $ http-server
 
-The content is available under http://127.0.0.1:8080/CONTENT_FILE.html
+The content is available under http://127.0.0.1:8080/slides.html
 
 ==== `jekyll`
 
@@ -61,4 +73,4 @@ Next you can server the content using command
 
   $ jekyll serve
 
-The content is available under http://127.0.0.1:4000/CONTENT_FILE.html
+The content is available under http://127.0.0.1:4000/slides.html
