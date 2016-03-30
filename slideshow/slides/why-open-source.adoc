@@ -1,0 +1,39 @@
+== Why?
+
+// ***************************************************************************
+
+// === The draw of Open Source (Hackers/Developers)
+=== Hackers/Developers
+
+* Having a real impact in the development and direction of IT
+* Personal satisfaction: I wrote that!
+* Sense of membership in a community
+* Sense of accomplishment - very quick turnaround times
+* Developers and engineers love to tinker - huge opportunity to do so
+
+// ***************************************************************************
+
+// === The draw of Open Source (Companies/Orgs)
+=== Companies/Orgs
+
+* Having a real impact in the development and direction of IT
+* Sense of membership in a community (most of the time)
+* Save on expensive resources
+* Ability to focus on what differentiates yourself
+* Allows for nimbleness and agility
+* Increased revenue and market share
+
+// ***************************************************************************
+
+// === The draw of Open Source (Users)
+=== Users
+
+* Access to the source code
+* Avoid vendor lock-in (or worse!)
+* Much better software
+* Better security record (more eyes)
+* Much more nimble development - frequent releases
+* Direct user input
+* Open Standards
+
+// ***************************************************************************

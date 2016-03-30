@@ -1,0 +1,121 @@
+== Licenses
+
+// ***************************************************************************
+=== Why?
+
+* Copyright is the default
+* Open Source is everywhere
+* The license determines use, re-use and distribution
+* Not understanding means risk
+
+// ***************************************************************************
+=== License Goals
+
+* Ensure what parts remain open source
+* Maintain control over code and direction
+* Provide common implementation for standards
+* Build community or commercial marketplace
+* For most end-users, this is the sole touch-point
+
+// ***************************************************************************
+=== True Open Source
+
+* For software to be Open Source, it must be under an OSI or FSF approved Open Source License
+* Open Source Definition: link:http://www.opensource.org/docs/osd[]
+* Free Software Definition: link:http://www.gnu.org/philosophy/free-sw.html[]
+* At last count, over 60 exist
+* New Open Source licenses are very hard to get approved
+* There are really 3 main types
+
+
+// ***************************************************************************
+=== Open Source Licenses
+
+* Give Me Credit
+** AL (Apache License), BSD, MIT
+* Give Me Fixes
+** LGPL (Lesser GPL), EPL (Eclipse Public License), MPL (Mozilla Public License)
+* Give Me Everything
+** GPL (General Public License)
+
+[.newline]
+Dave Johnson -- link:https://rollerweblogger.org/roller/entry/gimme_credit_gimme_fixes_gimme[]
+
+// ***************************************************************************
+=== Give Me Credit
+
+// ***************************************************************************
+=== Give Me Credit
+
+* A liberal open source software license
+* Business friendly
+* Requires attribution
+* No warranty
+* Easily reused by other projects & organizations (universal donor)
+* Legally, not complex
+
+// ***************************************************************************
+=== Give Me Credit
+
+* Community Impacts:
+** Limited control by a single entity
+** Little value in direct competition
+** Used in widest variety of community types
+
+// ***************************************************************************
+=== Give Me Fixes
+
+// ***************************************************************************
+=== Give Me Fixes
+
+* Used mostly with platforms or libraries
+* sources != binaries
+* Protects the licensed code, but allows larger derivative works with different licensing
+* Still very business friendly
+* Could create some legal questions
+
+// ***************************************************************************
+=== Give Me Fixes
+
+* Community Impacts:
+** Easier single entity control
+** Direct development/improvements of the code benefits all
+
+
+// ***************************************************************************
+=== Give Me Everything
+
+// ***************************************************************************
+=== Give Me Everything
+
+* Derivative works also under GPL
+* Linked works could also be under GPL
+* Viral nature may likely limit adoption
+* GPL trumps all others or else incompatible
+* legally, most complex
+
+// ***************************************************************************
+=== Give Me Everything
+
+* Community Impacts:
+** "Forces"/"enables" dual-license business strategy for copyright holder
+** Encourages full free-software community
+*** Direct development/improvements of any uses of the code benefits all, but mostly the orig. author(s)
+** Contributors guaranteed all code will be free
+
+// ***************************************************************************
+=== License Differences
+
+* How "viral" the license and its conditions are
+* Mainly involve the licensing of derivative works
+* Only really applies during (re)distribution of work
+* Where the "freedom" should be mostly focused: the user or the code itself
+
+// ***************************************************************************
+=== One True License
+
+* There is no such thing
+* Licensing is selected to address what you are trying to do
+* In general, Open Standards do better with AL-like license
+* If wide adoption is important to you: again AL.
+* To restrict non-shared private enhancements, copyleft.

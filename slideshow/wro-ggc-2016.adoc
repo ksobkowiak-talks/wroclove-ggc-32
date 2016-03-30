@@ -15,8 +15,8 @@
 
 // ***************************************************************************
 
-= Getting Involved in Open Source
-
+//= Getting Involved in Open Source
+= Understanding Open Source
 
 [.cover]
 --
@@ -36,20 +36,67 @@ image:{template-images-dir}/feather.png[width="60", link="http://apache.org"]
 
 // ***************************************************************************
 
-== Who
+== About Me
 
 [.noredheader,cols="75%,25%"]
 |===
 a|
-* Open source enthusiast & evangelist
-* The Apache Software Foundation member
-* Apache ServiceMix commiter & PMC chair (V.P. Apache ServiceMix)
-* Contributor at Apache Karaf, CXF, Camel, ActiveMQ
-* Committer at http://oasp.io[OASP], committer at https://ops4j1.jira.com/wiki/[OPS4J]
+* FOSS enthusiast, evangelist & architect
+* The Apache Software Foundation
+** Member
+** Apache ServiceMix commiter & PMC chair (V.P. Apache ServiceMix)
+** active at Apache Karaf, CXF, Camel, ActiveMQ
+* Member/developer at http://oasp.io[OASP], https://ops4j1.jira.com/wiki/[OPS4J]
 * Senior Solution Architect & trainer at Capgemini
-* Co-founder & trainer at http://robocap.pl[RoboCap.pl]
-<| image:{template-images-dir}/kso1.png[width="90%"] |
+* Co-founder, member & trainer at http://robocap.pl[RoboCap.pl]
+<.^| image:{template-images-dir}/kso1.png[width="90%"] |
 |===
+
+// ***************************************************************************
+
+== Outline
+
+* What is Open Source?
+* Licenses
+* Governance/Community
+* The Apache Software Foundation
+* Getting Involved in Open Source
+
+// ***************************************************************************
+
+// include::slides/what-is-open-source.adoc[]
+
+// ***************************************************************************
+
+include::slides/why-open-source.adoc[]
+
+// ***************************************************************************
+
+include::slides/open-source-promises.adoc[]
+
+// ***************************************************************************
+
+include::slides/open-source-licenses-short.adoc[]
+
+// ***************************************************************************
+
+// ***************************************************************************
+
+
+
+// ***************************************************************************
+
+// ***************************************************************************
+
+// ***************************************************************************
+
+// ***************************************************************************
+
+// ***************************************************************************
+
+// ***************************************************************************
+
+// ***************************************************************************
 
 // ***************************************************************************
 
