@@ -1,5 +1,10 @@
 == The Apache Software Foundation
 
+[.centering]
+--
+image:images/asf-logo.png[width="500"]
+--
+
 // ***************************************************************************
 
 === The ASF

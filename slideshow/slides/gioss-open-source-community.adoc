@@ -1,5 +1,10 @@
 == Governance/Community
 
+[.centering]
+--
+image:images/community-wb.png[width="500"]
+--
+
 // ***************************************************************************
 
 === Community
@@ -17,7 +22,7 @@
 === Governance Models
 
 * Walled Garden
-** "All your base are belong to us.""
+** "All your base are belong to us."
 * Benevolent Dictator
 ** "Supreme executive power derives from a mandate from the masses, not some farcical aquatic ceremony."
 * Meritocratic Community
@@ -27,6 +32,13 @@
 // ***************************************************************************
 
 === Walled Garden
+
+[.centering]
+--
+image:images/walled-garden.png[width="1000"]
+--
+
+* "All your base are belong to us."
 
 // ***************************************************************************
 
@@ -45,6 +57,13 @@
 
 === BDFL
 
+[.centering]
+--
+image:images/bdfl.png[width="1000"]
+--
+
+* "Supreme executive power derives from a mandate from the masses, not some farcical aquatic ceremony."
+
 // ***************************************************************************
 
 === Benevolent Dictator
@@ -61,6 +80,12 @@
 
 === Meritocracy
 
+[.centering]
+--
+image:images/meritocracy.png[width="800"]
+--
+
+* "Out of Chaos comes Order."
 
 // ***************************************************************************
 
@@ -77,19 +102,45 @@
 
 === Community Building
 
+[.centering]
+--
+image:images/community-building-wb.png[width="500"]
+--
+
 // ***************************************************************************
 
 === Use Email Lists
+
+[.centering]
+--
+image:images/mailing-lists.png[width="600"]
+--
 
 // ***************************************************************************
 
 === Drive Consensus
 
+[.centering]
+--
+image:images/drive-consensus.png[width="600"]
+--
 
 // ***************************************************************************
 
 === No Poisonous People
 
+[.centering]
+--
+image:images/poisonous-people.png[width="700"]
+--
+
+* How Open Source Projects Survive Poisonous People (And You Can Too)  by Ben Collins-Sussman & Brian Fitzpatrick – link:https://youtu.be/Q52kFL8zVoM[]
+
 // ***************************************************************************
 
 === Play Nice, Share, Have Fun
+
+[.centering]
+--
+image:images/kindergarten.png[width="700"]
+--

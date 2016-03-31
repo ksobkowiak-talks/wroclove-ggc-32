@@ -1,5 +1,10 @@
 == Licenses
 
+[.centering]
+--
+image:images/licensed.png[width="500"]
+--
+
 // ***************************************************************************
 === Why?
 
@@ -44,6 +49,11 @@ Dave Johnson -- link:https://rollerweblogger.org/roller/entry/gimme_credit_gimme
 // ***************************************************************************
 === Give Me Credit
 
+[.centering]
+--
+image:images/give-me-credit.png[width="600"]
+--
+
 * AL, BSD, MIT
 
 // ***************************************************************************
@@ -67,6 +77,11 @@ Dave Johnson -- link:https://rollerweblogger.org/roller/entry/gimme_credit_gimme
 // ***************************************************************************
 === Give Me Fixes
 
+[.centering]
+--
+image:images/give-me-fixes.png[width="1000"]
+--
+
 * LGPL, EPL, MPL
 
 // ***************************************************************************
@@ -88,6 +103,11 @@ Dave Johnson -- link:https://rollerweblogger.org/roller/entry/gimme_credit_gimme
 
 // ***************************************************************************
 === Give Me Everything
+
+[.centering]
+--
+image:images/give-me-everything-wb.png[width="700"]
+--
 
 * GPL
 
