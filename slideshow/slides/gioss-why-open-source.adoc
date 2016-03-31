@@ -1,5 +1,10 @@
 == Why?
 
+[.centering]
+--
+image:images/why-wb.png[width="360"]
+--
+
 // ***************************************************************************
 
 // === The draw of Open Source (Hackers/Developers)

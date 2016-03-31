@@ -1,0 +1,95 @@
+== Governance/Community
+
+// ***************************************************************************
+
+=== Community
+
+* AKA: Governance
+** Defines how the community operates
+** How conflicts are resolved
+** Growth path of the communit
+*** code
+*** members
+** Again, 3 main types
+
+// ***************************************************************************
+
+=== Governance Models
+
+* Walled Garden
+** "All your base are belong to us.""
+* Benevolent Dictator
+** "Supreme executive power derives from a mandate from the masses, not some farcical aquatic ceremony."
+* Meritocratic Community
+** "Out of Chaos comes Order."
+
+
+// ***************************************************************************
+
+=== Walled Garden
+
+// ***************************************************************************
+
+=== Walled Garden
+
+* Generally Licensed under copyleft-ish license (GPL)
+* Involvement in code is closed
+* Commit/patches limited to company employees
+** Any accepted code has stringent assignments (copyright)
+* Code benefits mainly the corporate key-holders.
+* "Crowd-sourcing"
+* Final say in direction: not the coders but the owners.
+** Example: Spring and Java (kinda)
+
+// ***************************************************************************
+
+=== BDFL
+
+// ***************************************************************************
+
+=== Benevolent Dictator
+
+* Licensed under All Open Source licenses
+* Involvement in code is open and based on merit.
+** Easy to provide patches/code
+* Single Dictator or Dictator with Generals (depending on size and complexity of the code)
+* Dictator (and Generals) non-aligned with corporate interests.
+* The community assigns power to Dictator who has final say if needed
+** Example: Think Linus and Linux.
+
+// ***************************************************************************
+
+=== Meritocracy
+
+
+// ***************************************************************************
+
+=== Meritocracy
+
+* Generally Licensed under liberal license (AL)
+* Involvement in code is open and based on merit.
+** Easiest model to provide code (simple, but complete, IP clearance: no assign copyright)
+* Clearly defined path based on merit
+* Collaboration and Community Consensus is critical
+** Example: Think Apache Software Foundation.
+
+// ***************************************************************************
+
+=== Community Building
+
+// ***************************************************************************
+
+=== Use Email Lists
+
+// ***************************************************************************
+
+=== Drive Consensus
+
+
+// ***************************************************************************
+
+=== No Poisonous People
+
+// ***************************************************************************
+
+=== Play Nice, Share, Have Fun

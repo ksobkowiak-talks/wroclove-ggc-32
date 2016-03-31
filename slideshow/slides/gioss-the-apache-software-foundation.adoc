@@ -1,0 +1,77 @@
+== The Apache Software Foundation
+
+// ***************************************************************************
+
+=== The ASF
+
+* ASF == The Apache Software Foundation
+* Non-profit corporation
+* 501(c)3 charity
+* Volunteer organization
+* Virtual world-wide organization
+* Exists to provide the organizational, legal and financial support for various OSS projects
+
+// ***************************************************************************
+
+=== The Apache Group
+
+[.noredheader,cols="50%,50%"]
+|===
+a| * Before the ASF there was “The Apache Group”
+* Informal corporate structure
+* 8 members
+* Resumed work on NCSA httpd in Feb. 1995
+* Choose permissive licensing
+| |
+|===
+
+// ***************************************************************************
+
+=== The ASF
+
+[.noredheader,cols="50%,50%"]
+|===
+a|
+Then
+
+* Incorporated in 1999
+* Started with 21 members
+* 2 projects
+* All servers and services donated
+
+image:images/committer-map.png[width="100%", link="http://people.apache.org/map.html"]
+a|
+Now
+
+* 675 members
+* 172 TLPs
+* 115 subprojects
+* 46 Incubator podlings
+* Tons of committers (literally)
+** ~ 5200 committers,
+** ~ 2150 PMC members,
+** ~ 7500 signed ICLAs
+* Very large and growing infrastructure
+|
+|===
+
+// ***************************************************************************
+
+=== The ASF's Mission
+
+[.noredheader,cols="50%,50%"]
+|===
+a|
+What?
+
+* Provide open source software to public free of charge
+* Let the coders code – foundation exists to do the rest
+a|
+How?
+
+* Infrastructure for open source development
+* Legal entity for donation purposes
+* Shelter from law suits
+* Protection of the Apache brand
+|
+|===
