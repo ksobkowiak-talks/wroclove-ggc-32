@@ -59,11 +59,11 @@ include::slides/gioss-why-open-source.adoc[]
 
 // ***************************************************************************
 
-include::slides/gioss-open-source-licenses-short.adoc[]
+include::slides/gioss-open-source-licenses.adoc[]
 
 // ***************************************************************************
 
-include::slides/gioss-open-source-community-short.adoc[]
+include::slides/gioss-open-source-community.adoc[]
 
 // ***************************************************************************
 

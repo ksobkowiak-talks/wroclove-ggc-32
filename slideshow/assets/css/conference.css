@@ -462,6 +462,10 @@ body {
       font-size: 2em
     }
 
+    .centering .medium-text {
+      font-size: 1.2em
+    }
+
     .listingblock .highlight {
       font-size: 0.65em;
       width: 100%;
