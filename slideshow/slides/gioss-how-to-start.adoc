@@ -1,1 +1,6 @@
-== How to start?
+== How to Start?
+
+[.centering]
+--
+image:images/i-want-you.png[width="400"]
+--

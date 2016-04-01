@@ -2,7 +2,7 @@
 
 [.centering]
 --
-image:images/asf-logo.png[width="500"]
+image:images/asf-logo.png[width="500", link="http://apache.org"]
 --
 
 // ***************************************************************************
@@ -22,19 +22,20 @@ image:images/asf-logo.png[width="500"]
 
 [.noredheader,cols="50%,50%"]
 |===
-a| * Before the ASF there was “The Apache Group”
+.^a|
+* Before the ASF there was “The Apache Group”
 * Informal corporate structure
 * 8 members
 * Resumed work on NCSA httpd in Feb. 1995
 * Choose permissive licensing
-| |
+.^| image:images/apache-group.png[width="100%"] |
 |===
 
 // ***************************************************************************
 
 === The ASF
 
-[.noredheader,cols="50%,50%"]
+[.noredheader,cols="45%,10%,45%"]
 |===
 a|
 Then
@@ -46,14 +47,15 @@ Then
 
 image:images/committer-map.png[width="100%", link="http://people.apache.org/map.html"]
 a|
+a|
 Now
 
-* 675 members
-* 172 TLPs
+* 650 members
+* 175 TLPs
 * 115 subprojects
-* 46 Incubator podlings
+* 55 Incubator podlings
 * Tons of committers (literally)
-** ~ 5200 committers,
+** ~ 5400 committers,
 ** ~ 2150 PMC members,
 ** ~ 7500 signed ICLAs
 * Very large and growing infrastructure
@@ -64,13 +66,14 @@ Now
 
 === The ASF's Mission
 
-[.noredheader,cols="50%,50%"]
+[.noredheader,cols="45%,10%,45%"]
 |===
 a|
 What?
 
 * Provide open source software to public free of charge
 * Let the coders code – foundation exists to do the rest
+a|
 a|
 How?
 
@@ -80,3 +83,89 @@ How?
 * Protection of the Apache brand
 |
 |===
+
+
+// ***************************************************************************
+
+=== ASF -- Org Chart
+
+[.centering]
+--
+image:images/asf-org-chart.png[width="80%"]
+--
+
+// ***************************************************************************
+
+=== The Apache Way -- Basic Memes
+
+[.centering]
+--
+image:images/basic-memes.png[width="50%"]
+--
+
+// ***************************************************************************
+
+=== Apache Projects
+
+[.noredheader,cols="65%,35%"]
+|===
+.^a|
+* Responsible for their own code, community and direction
+* Diversity: Java, C, C++, Perl, …
+* Leading technology
+** Web servers, Java tools & stacks, search, cloud, big data,  build tools, CMS/web framework, databases, OSGi containers, integration frameworks, graphics, …
+** And end user Office suites!
+* It’s okay for projects to be in “same” space
+** Ant/Maven, Pig/Hive, Axis/CXF...
+.^| image:images/apache-projects-statistics.png[width="100%"] |
+|===
+
+// ***************************************************************************
+
+=== Apache Projects
+
+[.centering]
+--
+image:images/apache-projects-1.png[width="70%"]
+--
+
+// ***************************************************************************
+
+=== Apache Projects
+
+[.centering]
+--
+image:images/apache-projects-2.png[width="70%"]
+--
+
+// ***************************************************************************
+
+=== Apache Projects
+
+[.centering]
+--
+image:images/apache-projects-3.png[width="70%"]
+--
+
+
+// ***************************************************************************
+
+=== Who Pays?
+
+* Apache does not pay for development
+** Voluntary contributions only!
+* Many (not all!) developers are paid by a third-party to work on the project
+* Foundation bears indirect support costs
+** Infrastructure, publicity, etc.
+
+// ***************************************************************************
+
+=== !
+
+[.centering]
+--
+image:{template-images-dir}/cite.png[width="100"]
+
+[.medium-text]
+We are more than a group of projects sharing a server, we are a community of developers and users.
+--
