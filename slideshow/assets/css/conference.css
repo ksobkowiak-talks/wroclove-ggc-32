@@ -466,6 +466,14 @@ body {
       font-size: 1.2em
     }
 
+    .centering .small-text {
+      font-size: 0.8em
+    }
+
+    .credits .content {
+      font-size: 0.8em
+    }
+
     .listingblock .highlight {
       font-size: 0.65em;
       width: 100%;
