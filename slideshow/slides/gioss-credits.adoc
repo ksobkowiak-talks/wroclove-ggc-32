@@ -17,7 +17,7 @@ All images property of their respective copyright holders.
 
 === Credits
 
-[.credits]
+[.small-text]
 --
 .Special thanks to all the people who made and released their awesome resources for free:
 * Past Apache Way slides by Jim Jagielski, Shane Curcuru, Justin Erenkrantz, Rich Bowen and Ross Gardler

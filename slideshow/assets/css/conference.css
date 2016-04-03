@@ -470,8 +470,12 @@ body {
       font-size: 0.8em
     }
 
-    .credits .content {
+    .small-text .content {
       font-size: 0.8em
+    }
+
+    .tiny-text .content {
+      font-size: 0.7em
     }
 
     .listingblock .highlight {

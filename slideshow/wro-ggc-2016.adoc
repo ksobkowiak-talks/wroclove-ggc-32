@@ -67,6 +67,28 @@ include::slides/gioss-open-source-community-short.adoc[]
 
 // ***************************************************************************
 
+== !
+
+[.noredheader,cols="48%,4%,48%"]
+|===
+^a|
+What is Open Source explained in LEGO
+
+image:images/what-is-open-source-lego.png[width="100%", link="https://youtu.be/a8fHgx9mE5U"]
+
+https://youtu.be/a8fHgx9mE5U
+a|
+^a|
+Open Source Basics
+
+image:images/what-is-open-source-cookies.png[width="100%", link="https://youtu.be/upxUAI-fAtE"]
+
+https://youtu.be/upxUAI-fAtE
+|
+|===
+
+// ***************************************************************************
+
 include::slides/gioss-the-apache-software-foundation.adoc[]
 
 // ***************************************************************************
