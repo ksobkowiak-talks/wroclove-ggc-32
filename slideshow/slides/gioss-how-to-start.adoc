@@ -15,8 +15,8 @@ image:images/i-want-you.png[width="400"]
 * No managers, no boss
 * Work on what you like when you like
 * Discuss technical designs and issues in writing
-* Networking opportunities
 * Build software used by millions around the world
+* Networking opportunities
 * ApacheCon
 
 // ***************************************************************************

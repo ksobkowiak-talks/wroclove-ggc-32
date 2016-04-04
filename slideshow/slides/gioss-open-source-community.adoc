@@ -12,7 +12,7 @@ image:images/community-wb.png[width="500"]
 * AKA: Governance
 ** Defines how the community operates
 ** How conflicts are resolved
-** Growth path of the communit
+** Growth path of the community
 *** code
 *** members
 ** Again, 3 main types
@@ -51,7 +51,7 @@ image:images/walled-garden.png[width="1000"]
 * Code benefits mainly the corporate key-holders.
 * "Crowd-sourcing"
 * Final say in direction: not the coders but the owners.
-** Example: Spring and Java (kinda)
+** Example: Spring
 
 // ***************************************************************************
 
