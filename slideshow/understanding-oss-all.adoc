@@ -1,0 +1,931 @@
+:revealjs_theme: conference
+:revealjs_customtheme: assets/css/conference.css
+:revealjs_width: 1280
+:revealjs_height: 720
+// The valid options are coderay, highlightjs, prettify, and pygments
+// :source-highlighter: pygments
+// :pygments-style: tango
+:source-highlighter: highlightjs
+:speaker: Krzysztof Sobkowiak (http://twitter.com/ksobkowiak[@ksobkowiak])
+:speaker-title: The Apache Software Foundation Member, Senior Solution Architect at Capgemini
+:speaker-email: krzys.sobkowiak@gmail.com, ksobkowiak@apache.org
+:speaker-blog: http://krzysztof-sobkowiak.net
+:speaker-twitter: http://twitter.com/ksobkowiak[@ksobkowiak]
+:template-images-dir: assets/images
+
+// ***************************************************************************
+
+//= Getting Involved in Open Source
+= Understanding Open Source
+
+[.cover]
+--
+
+[.event]
+Geek Girls Carrots #32 +
+Wrocław, 13 April 2016
+
+[.newline]
+{speaker}
+[.speaker-title]
+The Apache Software Foundation Member +
+Senior Solution Architect at Capgemini
+[.logo-left]
+image:{template-images-dir}/feather.png[width="60", link="http://apache.org"]
+--
+
+// ***************************************************************************
+
+== About Me
+
+[.noredheader,cols="75%,25%"]
+|===
+a|
+* FOSS enthusiast, evangelist & architect
+* The Apache Software Foundation
+** Member
+** Apache ServiceMix commiter & PMC chair (V.P. Apache ServiceMix)
+** active at Apache Karaf, CXF, Camel, ActiveMQ
+* Member/developer at http://oasp.io[OASP], https://ops4j1.jira.com/wiki/[OPS4J]
+* Senior Solution Architect & trainer at Capgemini
+* Co-founder, member & trainer at http://robocap.pl[RoboCap.pl]
+<.^| image:{template-images-dir}/kso1.png[width="90%"] |
+|===
+
+// ***************************************************************************
+
+=== !
+
+[.centering]
+--
+image:{template-images-dir}/warn.png[]
+
+[.medium-text]
+Views in this presentation are my personal views and do not necessarily reflect the views of the Apache Software Foundation.
+--
+
+// ***************************************************************************
+
+== Outline
+
+* Why Open Source?
+* Licenses
+* Governance/Community
+* The Apache Software Foundation
+* How to start?
+
+// ***************************************************************************
+
+== What is Open Source?
+
+// ***************************************************************************
+
+=== What is Open Source?
+
+* Basically, it’s a "new" way to develop, license and distribute code
+* Actually, there was "open source" even before it was called that
+* The key technologies behind the Internet and the Web and the
+Cloud are all Open Source based
+* Brings Scientific Method to IT
+
+// ***************************************************************************
+
+=== What is Open Source?
+
+* Open Source Licensing
+** OSI and/or Free Software Foundation (FSF) Approved
+* Free Software
+** As in Free Speech, not Free Beer
+* Open Source Methodology (secondary)
+** Community/Governance types
+** Many consider this just as important as the license
+
+// ***************************************************************************
+
+=== What is Open Source?
+
+* Also called Free Software
+** But the word "Free" confuses some people
+* FOSS: Free and Open Source Software
+* FLOSS: Free/Libre Open Source Software
+* Pretty much, all mean the same thing
+* The name can cause "religious" or "philosophical" debates, but in government and industry, Open Source is the more widely used term
+
+// ***************************************************************************
+
+=== What is Open Source?
+
+* Basic tenets (related to licenses):
+** Access to the source code (the code is Open and Free)
+** Ability to use the source code (run it and/or leverage it)
+** Ability to modify the source code
+** Ability to distribute the (modified) source code
+* Open Source "methodology"/philosophy
+
+// ***************************************************************************
+
+=== Open Source FUD
+
+* No quality or quality control
+* Prevents or slows development
+* Have to “give it away for free”
+* No real innovation
+
+[.newline]
+FUD -- Fear, Uncertainty and Doubt
+
+// ***************************************************************************
+
+== Why?
+
+[.centering]
+--
+image:images/why-wb.png[width="360"]
+--
+
+// ***************************************************************************
+
+// === The draw of Open Source (Hackers/Developers)
+=== Hackers/Developers
+
+* Having a real impact in the development and direction of IT
+* Personal satisfaction: I wrote that!
+* Sense of membership in a community
+* Sense of accomplishment - very quick turnaround times
+* Developers and engineers love to tinker - huge opportunity to do so
+
+// ***************************************************************************
+
+// === The draw of Open Source (Companies/Orgs)
+=== Companies/Orgs
+
+* Having a real impact in the development and direction of IT
+* Sense of membership in a community (most of the time)
+* Save on expensive resources
+* Ability to focus on what differentiates yourself
+* Allows for nimbleness and agility
+* Increased revenue and market share
+
+// ***************************************************************************
+
+// === The draw of Open Source (Users)
+=== Users
+
+* Access to the source code
+* Avoid vendor lock-in (or worse!)
+* Much better software
+* Better security record (more eyes)
+* Much more nimble development - frequent releases
+* Direct user input
+* Open Standards
+
+// ***************************************************************************
+=== Open Source
+
+* For software to be Open Source, it must be under an OSI or FSF approved Open Source License
+* Open Source Definition: link:http://www.opensource.org/docs/osd[]
+** 10 criteria
+* At last count, over 60 exist
+* New Open Source licenses are very hard to get approved
+* There are really 3 main types
+
+// ***************************************************************************
+
+=== Free Software
+
+* "Free" as in "free speech" (not as in "free beer", although free beer is good!)
+* Software freedom is a moral imperative.
+* Free Software Definition: link:http://www.gnu.org/philosophy/free-sw.html[]
+** 4 basic freedoms must be maintained
+* Free Software ~== Open Source
+* F(L)OSS
+
+// ***************************************************************************
+
+=== Promises
+
+[.centering]
+--
+image:images/promise-wb.png[width="500"]
+--
+
+// ***************************************************************************
+
+=== Let’s pretend
+
+[.centering]
+--
+image:images/lets-pretend.png[width="1000"]
+--
+
+// ***************************************************************************
+
+=== Use
+
+[.centering]
+--
+image:images/use.png[width="1000"]
+--
+
+// ***************************************************************************
+
+=== Modify
+
+[.centering]
+--
+image:images/modify.png[width="1000"]
+--
+
+// ***************************************************************************
+
+=== Share
+
+[.centering]
+--
+image:images/share.png[width="1000"]
+--
+
+// ***************************************************************************
+
+== Licenses
+
+[.centering]
+--
+image:images/licensed.png[width="500"]
+--
+
+// ***************************************************************************
+=== Why?
+
+* Copyright is the default
+* Open Source is everywhere
+* The license determines use, re-use and distribution
+* Not understanding means risk
+
+// ***************************************************************************
+=== License Goals
+
+* Ensure what parts remain open source
+* Maintain control over code and direction
+* Provide common implementation for standards
+* Build community or commercial marketplace
+* For most end-users, this is the sole touch-point
+
+// ***************************************************************************
+=== Open Source
+
+* For software to be Open Source, it must be under an OSI or FSF approved Open Source License
+* Open Source Definition: link:http://www.opensource.org/docs/osd[]
+** 10 criteria
+* At last count, over 60 exist
+* New Open Source licenses are very hard to get approved
+* There are really 3 main types
+
+// ***************************************************************************
+
+=== Free Software
+
+* "Free" as in "free speech" (not as in "free beer", although free beer is good!)
+* Software freedom is a moral imperative.
+* Free Software Definition: link:http://www.gnu.org/philosophy/free-sw.html[]
+** 4 basic freedoms must be maintained
+* Free Software ~== Open Source
+* F(L)OSS
+
+// ***************************************************************************
+=== Open Source Licenses
+
+* Give Me Credit
+** AL (Apache License), BSD, MIT
+* Give Me Fixes
+** LGPL (Lesser GPL), EPL (Eclipse Public License), MPL (Mozilla Public License)
+* Give Me Everything
+** GPL (General Public License)
+
+[.newline]
+Dave Johnson -- link:https://rollerweblogger.org/roller/entry/gimme_credit_gimme_fixes_gimme[]
+
+// ***************************************************************************
+=== Give Me Credit
+
+[.centering]
+--
+image:images/give-me-credit.png[width="600"]
+--
+
+* AL, BSD, MIT
+
+// ***************************************************************************
+=== Give Me Credit
+
+* A liberal open source software license
+* Business friendly
+* Requires attribution
+* No warranty
+* Easily reused by other projects & organizations (universal donor)
+* Legally, not complex
+
+// ***************************************************************************
+=== Give Me Credit
+
+* Community Impacts:
+** Limited control by a single entity
+** Little value in direct competition
+** Used in widest variety of community types
+
+// ***************************************************************************
+=== Give Me Fixes
+
+[.centering]
+--
+image:images/give-me-fixes.png[width="1000"]
+--
+
+* LGPL, EPL, MPL
+
+// ***************************************************************************
+=== Give Me Fixes
+
+* Used mostly with platforms or libraries
+* sources != binaries
+* Protects the licensed code, but allows larger derivative works with different licensing
+* Still very business friendly
+* Could create some legal questions
+
+// ***************************************************************************
+=== Give Me Fixes
+
+* Community Impacts:
+** Easier single entity control
+** Direct development/improvements of the code benefits all
+
+
+// ***************************************************************************
+=== Give Me Everything
+
+[.centering]
+--
+image:images/give-me-everything-wb.png[width="700"]
+--
+
+* GPL
+
+// ***************************************************************************
+=== Give Me Everything
+
+* Derivative works also under GPL
+* Linked works could also be under GPL
+* Viral nature may likely limit adoption
+* GPL trumps all others or else incompatible
+* legally, most complex
+
+// ***************************************************************************
+=== Give Me Everything
+
+* Community Impacts:
+** "Forces"/"enables" dual-license business strategy for copyright holder
+** Encourages full free-software community
+*** Direct development/improvements of any uses of the code benefits all, but mostly the orig. author(s)
+** Contributors guaranteed all code will be free
+
+// ***************************************************************************
+=== License Differences
+
+* How "viral" the license and its conditions are
+* Mainly involve the licensing of derivative works
+* Only really applies during (re)distribution of work
+* Where the "freedom" should be mostly focused: the user or the code itself
+
+// ***************************************************************************
+=== One True License
+
+* There is no such thing
+* Licensing is selected to address what you are trying to do
+* In general, Open Standards do better with AL-like license
+* If wide adoption is important to you: again AL.
+* To restrict non-shared private enhancements, copyleft.
+
+=== One True License
+
+* There is no true one Open Source license
+* Take time to understand licenses (it can be very difficult to change)
+** Differences between same type
+* Choose the right license
+** Different license for different needs/goals
+** Don’t pick because it’s “popular”
+* Don’t modify a license (or UGG! try to make a new one)
+* Choose a license!
+
+// ***************************************************************************
+
+== Governance/Community
+
+[.centering]
+--
+image:images/community-wb.png[width="500"]
+--
+
+// ***************************************************************************
+
+=== Community
+
+* AKA: Governance
+** Defines how the community operates
+** How conflicts are resolved
+** Growth path of the community
+*** code
+*** members
+** Again, 3 main types
+
+// ***************************************************************************
+
+=== Governance Models
+
+* Walled Garden
+** "All your base are belong to us."
+* Benevolent Dictator
+** "Supreme executive power derives from a mandate from the masses, not some farcical aquatic ceremony."
+* Meritocratic Community
+** "Out of Chaos comes Order."
+
+
+// ***************************************************************************
+
+=== Walled Garden
+
+[.centering]
+--
+image:images/walled-garden.png[width="1000"]
+--
+
+* "All your base are belong to us."
+
+// ***************************************************************************
+
+=== Walled Garden
+
+* Generally Licensed under copyleft-ish license (GPL)
+* Involvement in code is closed
+* Commit/patches limited to company employees
+** Any accepted code has stringent assignments (copyright)
+* Code benefits mainly the corporate key-holders.
+* "Crowd-sourcing"
+* Final say in direction: not the coders but the owners.
+** Example: Spring
+
+// ***************************************************************************
+
+=== BDFL
+
+[.centering]
+--
+image:images/bdfl.png[width="1000"]
+--
+
+* "Supreme executive power derives from a mandate from the masses, not some farcical aquatic ceremony."
+
+// ***************************************************************************
+
+=== Benevolent Dictator
+
+* Licensed under All Open Source licenses
+* Involvement in code is open and based on merit.
+** Easy to provide patches/code
+* Single Dictator or Dictator with Generals (depending on size and complexity of the code)
+* Dictator (and Generals) non-aligned with corporate interests.
+* The community assigns power to Dictator who has final say if needed
+** Example: Think Linus and Linux.
+
+// ***************************************************************************
+
+=== Meritocracy
+
+[.centering]
+--
+image:images/meritocracy.png[width="800"]
+--
+
+* "Out of Chaos comes Order."
+
+// ***************************************************************************
+
+=== Meritocracy
+
+* Generally Licensed under liberal license (AL)
+* Involvement in code is open and based on merit.
+** Easiest model to provide code (simple, but complete, IP clearance: no assign copyright)
+* Clearly defined path based on merit
+* Collaboration and Community Consensus is critical
+** Example: Think Apache Software Foundation.
+
+// ***************************************************************************
+
+=== Community Building
+
+[.centering]
+--
+image:images/community-building-wb.png[width="500"]
+--
+
+// ***************************************************************************
+
+=== Use Email Lists
+
+[.centering]
+--
+image:images/mailing-lists.png[width="600"]
+--
+
+// ***************************************************************************
+
+=== Drive Consensus
+
+[.centering]
+--
+image:images/drive-consensus.png[width="600"]
+--
+
+// ***************************************************************************
+
+=== No Poisonous People
+
+[.centering]
+--
+image:images/poisonous-people.png[width="700"]
+--
+
+* How Open Source Projects Survive Poisonous People (And You Can Too)  by Ben Collins-Sussman & Brian Fitzpatrick – link:https://youtu.be/Q52kFL8zVoM[]
+
+// ***************************************************************************
+
+=== Play Nice, Share, Have Fun
+
+[.centering]
+--
+image:images/kindergarten.png[width="700"]
+--
+
+// ***************************************************************************
+
+== !
+
+[.noredheader,cols="48%,4%,48%"]
+|===
+^a|
+What is Open Source explained in LEGO
+
+image:images/what-is-open-source-lego.png[width="100%", link="https://youtu.be/a8fHgx9mE5U"]
+
+https://youtu.be/a8fHgx9mE5U
+a|
+^a|
+Open Source Basics
+
+image:images/what-is-open-source-cookies.png[width="100%", link="https://youtu.be/upxUAI-fAtE"]
+
+https://youtu.be/upxUAI-fAtE
+|
+|===
+
+// ***************************************************************************
+
+== The Apache Software Foundation
+
+[.centering]
+--
+image:images/asf-logo.png[width="500", link="http://apache.org"]
+--
+
+// ***************************************************************************
+
+=== The ASF
+
+* ASF == The Apache Software Foundation
+* Non-profit corporation
+* 501(c)3 charity
+* Volunteer organization
+* Virtual world-wide organization
+* Exists to provide the organizational, legal and financial support for various OSS projects
+
+// ***************************************************************************
+
+=== The Apache Group
+
+[.noredheader,cols="50%,50%"]
+|===
+.^a|
+* Before the ASF there was “The Apache Group”
+* Informal corporate structure
+* 8 members
+* Resumed work on NCSA httpd in Feb. 1995
+* Choose permissive licensing
+.^| image:images/apache-group.png[width="100%"] |
+|===
+
+// ***************************************************************************
+
+=== The ASF
+
+[.noredheader,cols="45%,10%,45%"]
+|===
+a|
+Then
+
+* Incorporated in 1999
+* Started with 21 members
+* 2 projects
+* All servers and services donated
+
+image:images/committer-map.png[width="100%", link="http://people.apache.org/map.html"]
+a|
+a|
+Now
+
+* 650 members
+* 175 TLPs
+* 115 subprojects
+* 55 Incubator podlings
+* Tons of committers (literally)
+** ~ 5400 committers,
+** ~ 2150 PMC members,
+** ~ 7500 signed ICLAs
+* Very large and growing infrastructure
+|
+|===
+
+// ***************************************************************************
+
+=== The ASF's Mission
+
+[.noredheader,cols="45%,10%,45%"]
+|===
+a|
+What?
+
+* Provide open source software to public free of charge
+* Let the coders code – foundation exists to do the rest
+a|
+a|
+How?
+
+* Infrastructure for open source development
+* Legal entity for donation purposes
+* Shelter from law suits
+* Protection of the Apache brand
+|
+|===
+
+
+// ***************************************************************************
+
+=== ASF -- Org Chart
+
+[.centering]
+--
+image:images/asf-org-chart.png[width="80%"]
+--
+
+// ***************************************************************************
+
+=== The Apache Way -- Basic Memes
+
+[.centering]
+--
+image:images/basic-memes.png[width="50%"]
+--
+
+// ***************************************************************************
+
+=== Apache Projects
+
+[.noredheader,cols="65%,35%"]
+|===
+.^a|
+* Responsible for their own code, community and direction
+* Diversity: Java, C, C++, Perl, …
+* Leading technology
+** Web servers, Java tools & stacks, search, cloud, big data,  build tools, CMS/web framework, databases, OSGi containers, integration frameworks, graphics, …
+** And end user Office suites!
+* It’s okay for projects to be in “same” space
+** Ant/Maven, Pig/Hive, Axis/CXF...
+.^| image:images/apache-projects-statistics.png[width="100%"] |
+|===
+
+// ***************************************************************************
+
+=== Apache Projects
+
+[.centering]
+--
+image:images/apache-projects-1.png[width="70%"]
+--
+
+// ***************************************************************************
+
+=== Apache Projects
+
+[.centering]
+--
+image:images/apache-projects-2.png[width="70%"]
+--
+
+// ***************************************************************************
+
+=== Apache Projects
+
+[.centering]
+--
+image:images/apache-projects-3.png[width="70%"]
+--
+
+
+// ***************************************************************************
+
+=== Who Pays?
+
+* Apache does not pay for development
+** Voluntary contributions only!
+* Many (not all!) developers are paid by a third-party to work on the project
+* Foundation bears indirect support costs
+** Infrastructure, publicity, etc.
+
+// ***************************************************************************
+
+=== !
+
+[.centering]
+--
+image:{template-images-dir}/cite.png[width="100"]
+
+[.medium-text]
+We are more than a group of projects sharing a server, we are a community of developers and users.
+--
+
+// ***************************************************************************
+
+== How to Start?
+
+[.centering]
+--
+image:images/i-want-you.png[width="400"]
+--
+
+// ***************************************************************************
+
+=== Why to Contribute?
+
+* Better end easy recognition of work
+* Publicly verifiable resume
+* Work with best programmers, with the best programming practices
+* No managers, no boss
+* Work on what you like when you like
+* Discuss technical designs and issues in writing
+* Build software used by millions around the world
+* Networking opportunities
+* ApacheCon
+
+// ***************************************************************************
+
+=== How to contribute?
+
+* ASF wants voluntary contributions
+* Documentation, Tutorials and Examples
+* Helping others with queries and questions
+* Issue / bug tracker triage
+* Testing new fixes, helping reproduce problems
+* Bug Fixes and New Features
+* Writing add-ons and extensions
+* Mentoring, volunteering for the Foundation
+
+* Many different ways to get involved, all are important!
+
+// ***************************************************************************
+
+=== Start Contributing
+
+[.tiny-text]
+--
+[.noredheader,cols="40%,30%,30%"]
+|===
+3+^a| image:images/start-contributing.png[width="70%"]
+>a|
+* English
+* A programming language
+* Debugging
+* Passion
+* Perseverance
+* Time
+^a|
+* Filter by your interest area
+* Filter by language
+* Something you use
+* Something you want to learn
+* Using the project is very important
+<a|
+* Choose your project
+* Join the mailing list or forum
+* Check out the code
+* Download the binary and play with it
+* Find open issues and feature requests
+* Ask the developers on what you can work on
+* Sign ICLA
+|
+|===
+--
+
+// ***************************************************************************
+
+=== Become a Committer
+
+[.noredheader,cols="48%,4%,48%"]
+|===
+a|
+Invitation of commit access
+
+* Current PMC member nominates individual
+* Discussions on private@ list
+** Key ?: Do we trust this individual?
+* PMCs are free to set own bar
+a|
+a|
+Beyond a committer
+
+* Once you are committer, you can then become a
+** PMC member
+** foundation member
+** Director...
+** even President!
+* You can
+** nominate other foundation (or PMC) members
+** can serve as mentor for Incubating projects
+** vote for Board.
+|
+|===
+
+// ***************************************************************************
+
+=== !
+
+[.centering]
+--
+image:{template-images-dir}/warn.png[]
+
+[.large-text]
+Fear not, just do it!!!
+--
+
+
+// ***************************************************************************
+
+== !
+
+[.thanks]
+--
+image:{template-images-dir}/smile.png[]
+
++++<h1>Thanks!</h1>+++
+[.underline]
+image:{template-images-dir}/underline.png[]
+
+[.large-text]
+Any questions?
+
+[.newline]
+You can find me at +
+{speaker-twitter} +
+{speaker-email} +
+{speaker-blog}
+--
+
+
+// ***************************************************************************
+
+=== !
+
+[.centering]
+--
+image:{template-images-dir}/warn.png[]
+
+[.small-text]
++++
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
++++
+
+[.small-text]
+Apache, the Apache feather logo and the Apache project names mentioned in this presentation and their logos are trademarks of link:http://apache.org[The Apache Software Foundation] in the United States and/or other countries.
+All other marks mentioned may be trademarks or registered trademarks of their respective owners.
+All images property of their respective copyright holders.
+--
+
+// ***************************************************************************
+
+=== Credits
+
+[.small-text]
+--
+.Special thanks to all the people who made and released their awesome resources for free:
+* Past Apache Way slides by Jim Jagielski, Shane Curcuru, Justin Erenkrantz, Rich Bowen and Ross Gardler
+--
+
+
+// ***************************************************************************
