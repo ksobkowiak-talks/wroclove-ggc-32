@@ -217,9 +217,10 @@ image:images/community-wb.png[width="500"]
 [.centering]
 --
 image:images/walled-garden.png[width="1000"]
---
 
-* "All your base are belong to us."
+[.small-text]
+"All your base are belong to us."
+--
 
 // ***************************************************************************
 
@@ -228,9 +229,10 @@ image:images/walled-garden.png[width="1000"]
 [.centering]
 --
 image:images/bdfl.png[width="1000"]
---
 
-* "Supreme executive power derives from a mandate from the masses, not some farcical aquatic ceremony."
+[.small-text]
+"Supreme executive power derives from a mandate from the masses, not some farcical aquatic ceremony."
+--
 
 // ***************************************************************************
 
@@ -239,9 +241,10 @@ image:images/bdfl.png[width="1000"]
 [.centering]
 --
 image:images/meritocracy.png[width="800"]
---
 
-* "Out of Chaos comes Order."
+[.small-text]
+"Out of Chaos comes Order."
+--
 
 // ***************************************************************************
 
@@ -277,9 +280,12 @@ image:images/drive-consensus.png[width="600"]
 [.centering]
 --
 image:images/poisonous-people.png[width="700"]
+
+[.small-text]
+How Open Source Projects Survive Poisonous People (And You Can Too)  by Ben Collins-Sussman & Brian Fitzpatrick +
+link:https://youtu.be/Q52kFL8zVoM[]
 --
 
-* How Open Source Projects Survive Poisonous People (And You Can Too)  by Ben Collins-Sussman & Brian Fitzpatrick – link:https://youtu.be/Q52kFL8zVoM[]
 
 // ***************************************************************************
 
@@ -593,7 +599,7 @@ Beyond a committer
 
 [.centering]
 --
-image:{template-images-dir}/warn.png[]
+image:{template-images-dir}/cogs.png[]
 
 [.large-text]
 Fear not, just do it!!!
