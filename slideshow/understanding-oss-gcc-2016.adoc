@@ -125,7 +125,7 @@ image:images/why-wb.png[width="360"]
 
 [.centering]
 --
-image:images/promise-wb.png[width="500"]
+image:images/promises.png[width=60%"]
 --
 
 // ***************************************************************************
