@@ -134,7 +134,16 @@ image:images/promises.png[width=60%"]
 
 [.centering]
 --
-image:images/lets-pretend.png[width="1000"]
+image:images/lets-pretend-0.png[width="1000"]
+--
+
+// ***************************************************************************
+
+=== Let’s pretend
+
+[.centering]
+--
+image:images/lets-pretend-1.png[width="1000"]
 --
 
 // ***************************************************************************
