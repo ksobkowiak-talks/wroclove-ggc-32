@@ -1,6 +1,6 @@
-= Getting Involved in Open Source
+= Understanding Open Source
 
-This repository contains the slides for the talks about Open Source.
+This repository contains the slides for my talk about Open Source for WrocLOVE Geek Girls Carrots #32.
 
 == Generate the slideshow and hands-on-labs
 
